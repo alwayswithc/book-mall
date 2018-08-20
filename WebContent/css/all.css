@@ -1,0 +1,178 @@
+/*閲嶇疆榛樿鐨勫杈硅窛鍜屽唴杈硅窛*/
+*{
+    margin:0;
+    padding:0;
+}
+/*甯哥敤鏍囩鐨勬牱寮忛噸缃�*/
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border:none;
+}
+/*璁惧畾html鍜宐ody鐨勫搴︿负100%*/
+html,body{
+    width:100%;
+    font-size: 14px;
+}
+/*鐗堝績*/
+.container{
+    width:1210px;
+    margin:0 auto;
+    
+}
+/*澶撮儴*/
+.header{
+    width:100%;
+    height: 110px;
+    box-shadow: 10px 10px 10px rgba(111,111,111,.5);
+    position: relative;
+
+}
+/*Logo*/
+.header .logo{
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    background: url("../images/20180222-235225.png") no-repeat;
+    position: absolute;
+    top:25px;
+    left:50px;
+}
+
+.header .desc{
+    font-size: 18px;
+    line-height: 34px;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    left: 200px;
+    top:28px;
+    padding-left: 20px;
+    font-weight:bold;
+}
+/*-----------------------------------浜笢娉ㄥ唽妯″潡---------------------------*/
+.register{
+	width: 400px;
+	margin: 0 auto;
+	padding-top:40px;
+	position: relative;
+}
+/*鍖呰９琛ㄥ崟椤瑰拰瀵瑰簲鐨勬彁绀轰俊鎭殑瀹瑰櫒鐨勬牱寮忚缃�*/
+.register-box{
+	width:100%;
+	height: 52px;
+	padding-bottom: 30px;
+}
+/*琛ㄥ崟椤规牱寮忚缃�*/
+.register-box .box{
+	width:100%;
+	height:100%;
+	line-height: 52px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.register-box .box.error{
+	border:1px solid red;
+}
+.register-box .box input{
+	width:200px;
+	font-size:16px;
+	padding-left: 20px;
+}
+/*楠岃瘉閫氳繃*/
+.register-box .box.right i{
+	width:20px;
+	height: 20px;
+	background: url(../images/right.png) no-repeat center center;
+	position: absolute;
+	top:50%;
+	margin-top: -10px;
+	right: 10px;
+	
+}
+/*鎻愮ず淇℃伅鏍峰紡璁剧疆*/
+.register-box .tip {
+	width:100%;
+	line-height: 30px;
+	font-size: 12px;
+}
+.register-box .tip i{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.register-box .tip span{
+	color: #CCCCCC;
+}
+/*鎻愮ず淇℃伅闅愯棌鏍峰紡*/
+.register-box .tip.hide{
+	display: none;
+}
+/*鎻愮ず淇℃伅榛樿鏍峰紡*/
+.register-box .tip.default i {
+	background: url(../images/default.png) no-repeat center center;
+}
+.register-box .tip.default span{
+	color: #ccc;
+}
+/*鎻愮ず淇℃伅閿欒鏍峰紡*/
+.register-box .tip.error i {
+	background: url(../images/error.png) no-repeat center center;
+}
+.register-box .tip.error span{
+	color: red;
+}
+/*鎻愮ず淇℃伅瀵嗙爜寮�*/
+.register-box .tip.ruo i {
+	background: url(../images/ruo.png) no-repeat center center;
+}
+/*鎻愮ず淇℃伅瀵嗙爜涓�*/
+.register-box .tip.zhong i {
+	background: url(../images/zhong.png) no-repeat center center;
+}
+/*鎻愮ず淇℃伅瀵嗙爜涓�*/
+.register-box .tip.qiang i {
+	background: url(../images/qiang.png) no-repeat center center;
+}
+/*浜笢鐢ㄦ埛娉ㄥ唽鍗忚*/
+.register-box.xieyi{
+	width:100%;
+	height: 20px;
+	padding-bottom: 30px;
+/*	background-color: #ccc;*/
+}
+.register-box.xieyi .box{
+	line-height: normal;
+	padding: 0;
+	border: none;
+}
+.register-box.xieyi .box.error{
+	line-height: normal;
+	padding: 0;
+	border: 1px solid red;
+}
+.register-box.xieyi .box input{
+	width: auto;
+}
+/*娉ㄥ唽*/
+#btn{
+	width: 100%;
+	height: 40px;
+	font:bold 18px/40px "瀹嬩綋";
+	color: white;
+	background-color: darkred;
+	outline-color: white;
+}
+#btn:hover{
+	background-color: red;
+}
+.checkimg{
+	width:100%;
+	height:120px;
+}
